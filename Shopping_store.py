@@ -53,7 +53,7 @@ class User:
                 if item not in l:
                     quantity=int(input("Quantity:"))
                     price+=Admin.item_and_price[item]*quantity
-                    l.append(item)
+                    l.append(str(quantity)+item)
                     Admin.item_and_stock[item]-=2
                     i+=1
                 else:

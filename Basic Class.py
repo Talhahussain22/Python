@@ -40,5 +40,5 @@ class Person:
 
 a = Person("Talha",18)
 b = Person("Ali",19)
-a.info()
-b.info()
+# a.info()
+# b.info()

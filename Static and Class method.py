@@ -34,6 +34,7 @@
 #not change to change class variable we use this class decorator above the function that changing company's name
 class Employee:
     company="Apple"
+
     def show(self):
         print(f'The name of employee is {self.name} and company is {self.company}')
     @classmethod
